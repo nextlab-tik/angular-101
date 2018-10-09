@@ -1,0 +1,17 @@
+<input  [(ngModel)]="name" pattern="[a-zA-Z]+" required />
+<h1 *ngIf="name">
+  Salut {{name}}
+</h1>
+<p *ngIf="!name">
+  Please type your name!
+</p>
+<input  [(ngModel)]="age" type="number" min="0" required/>
+<p *ngIf="!age">
+  Type your age
+</p>
+<h1 *ngIf="age && age<minage">
+  not the good age here
+</h1>
+<h1 *ngIf="age && age >= minage">
+  Welcome
+</h1>

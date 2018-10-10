@@ -13,6 +13,28 @@ This course pre-requires knowledge on Web programming as presented on our
 [WebApp 101 Course](https://github.com/tiktn/webapp-101) and our book
 [Programmation Web](https://programmation-web.com/).
 
+**Angular Project Setup Commands**
+
+```sh
+# Install Angular tools globally
+npm install -g @angular/cli
+# Create a new Angular project
+ng new PROJECT
+cd PROJECT
+# Create a new Angular component
+ng generate component COMPONENT
+# Run Angular project
+ng serve --watch
+
+```
+
+```shell
+# Install fontawesome icons
+npm install @fortawesome/fontawesome-free
+# Install Bootstrap icons
+npm install bootstrap
+```
+
 Self Promotion
 --------------
 
